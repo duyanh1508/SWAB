@@ -1,0 +1,115 @@
+.navbar {
+    color: #b3ff99;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b3ff99;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+li a:hover {
+    background-color: yellowgreen;
+}
+
+#logoswab {
+    float: left;
+    width: 20px;
+    height: 60px;
+}
+
+#eye {
+    width: 40px;
+    height: 40px;
+}
+
+#intro {
+    margin: 50px;
+    background-color: aqua;
+    text-align: center;
+    height: 100px;
+}
+
+.header-menu-item {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    list-style: none;
+    text-decoration: none;
+}
+
+#hien-thi {}
+
+#table-hienthi1 {
+    border: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#table-hienthi2 {
+    border: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thong-so {
+    width: 20%;
+}
+
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+}
+
+#giai-thich-image {
+    width: 60%;
+    float: left;
+}
+
+.giai-thich-para {
+    width: 37%;
+    float: right;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 43px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #182333;
+    color: #90FAFF;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
